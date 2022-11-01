@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a,
+p,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
