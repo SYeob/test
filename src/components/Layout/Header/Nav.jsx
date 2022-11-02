@@ -9,6 +9,20 @@ const Nav = (props) => {
     <div>
       <nav>
         <ul className='navContent'>
+          {/* 햄버거메뉴에 로그인 추가 */}
+          <span className='login-menu'>
+            <li >
+              <img src={props.Close} alt='' className='closeBtn' />
+            </li>
+            <a className='login-li'
+              onClick={() => {
+                navigate(props.navData[0].login);
+              }}
+            >
+              로그인
+            </a>
+            {/* map 반복문 */}
+          </span>
           {props.navData.map(function (a, i) {
             return (
               <li key={i}>

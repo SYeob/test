@@ -3,6 +3,8 @@ let navData = [
     id: 0,
     title: '전체',
     link: '/all',
+    home: '/',
+    login: '/login'
   },
 
   {
@@ -40,6 +42,7 @@ let navData = [
     title: '기타 물품',
     link: '/other',
   },
+
 ];
 
 export default navData;
